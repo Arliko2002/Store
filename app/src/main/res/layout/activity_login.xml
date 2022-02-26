@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/purple_my">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/login_page" />
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_login2"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/gideon_roman"
+            android:fontFamily="@font/comicneue_bold"
             android:hint="@string/signIn"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -81,7 +82,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:background="@drawable/button_color"
             android:textColor="@color/white"
-            android:fontFamily="@font/josefinsans_extralight"/>
+            android:fontFamily="@font/josefinsans_extralight" />
 
         <TextView
             android:id="@+id/textView"
