@@ -12,8 +12,7 @@
     <string name="promt_password">Password</string>
     <string name="search">Search item...</string>
     <string name="popular">Popular Product</string>
-    <string name="view">View All</string>
-
+    <string name="address">address</string>
     <string name="key">AIzaSyD5obQEPK9Cb7Nq89sJbVWl9tcp6vXgosE</string>
 
 </resources>
