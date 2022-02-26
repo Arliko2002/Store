@@ -38,6 +38,17 @@
                     android:textColor="@color/black"
                     android:textSize="18sp"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/comicneue"
+                android:text="@string/view"
+                android:textColor="@color/purple_my"
+                android:textSize="18sp"
+                android:gravity="end"
+                android:layout_marginRight="8dp" />
+
         </LinearLayout>
     </LinearLayout>
 
