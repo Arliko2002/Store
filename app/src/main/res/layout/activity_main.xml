@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wellcomepagedark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wellcome"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gideon_roman"
+            android:textSize="40sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project"
+            android:textColor="@color/white"
+            android:fontFamily="@font/josefinsans"
+            android:textSize="30sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:id="@+id/reg_main"
+            android:layout_width="192dp"
+            android:layout_height="52dp"
+            android:onClick="registration"
+            android:text="@string/registration"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/buttons_corner"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gideonroman_regular" />
+        <Button
+            android:id="@+id/sign_in_main"
+            android:layout_width="192dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/signIn"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="login"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gideonroman_regular"/>
+
+    </LinearLayout>
+</RelativeLayout>

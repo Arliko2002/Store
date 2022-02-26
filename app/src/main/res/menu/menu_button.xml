@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--app:cnb_unselectedColor="#DE5252";-->
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_akar_icons_home"
+        android:title="Home"
+        app:cnb_backgroundColor="#9F6257"
+        app:cnb_iconColor="#FFF"
+        app:cnb_textColor="#FFF"/>
+
+    <item
+        android:id="@+id/basket"
+        android:icon="@drawable/ic_carbon_shopping_cart"
+        android:title="Basket"
+        app:cnb_backgroundColor="#9F6257"
+        app:cnb_iconColor="#FFF"
+        app:cnb_textColor="#FFF"/>
+
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/ic_carbon_search_locate"
+        android:title="Categories"
+        app:cnb_backgroundColor="#9F6257"
+        app:cnb_iconColor="#FFF"
+        app:cnb_textColor="#FFF"/>
+</menu>

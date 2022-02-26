@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Categories</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="registration">Registration</string>
+    <string name="wellcome">Welcome to</string>
+    <string name="project">Our Project</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Your Nickname</string>
+    <string name="promt_password">Password</string>
+</resources>
