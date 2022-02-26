@@ -10,6 +10,9 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_name">Your Nickname</string>
     <string name="promt_password">Password</string>
-    <string name="address">Enter address</string>
+    <string name="search">Search item...</string>
+    <string name="popular">Popular Product</string>
+
     <string name="key">AIzaSyD5obQEPK9Cb7Nq89sJbVWl9tcp6vXgosE</string>
+
 </resources>

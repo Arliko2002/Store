@@ -21,6 +21,8 @@
             android:name="com.google.android.gms.vision"
             android:value="@string/key" />
 
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

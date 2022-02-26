@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="home" />
+        android:orientation="vertical">
 
-</FrameLayout>
+        <EditText
+            android:elevation="3dp"
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/search"
+            android:padding="13dp"
+            android:background="@drawable/buttons_corner"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/comicneue"
+                    android:text="@string/popular"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
