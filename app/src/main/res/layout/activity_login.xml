@@ -65,51 +65,51 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="35sp"
-        android:orientation="vertical"
         android:layout_alignParentBottom="true"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="35sp">
 
         <Button
             android:id="@+id/sign_in"
             android:layout_width="192dp"
             android:layout_height="52dp"
+            android:background="@drawable/button_color"
+            android:fontFamily="@font/comicneue"
             android:hint="@string/signIn"
+            android:textColor="@color/white"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:background="@drawable/button_color"
-            android:textColor="@color/white"
-            android:fontFamily="@font/josefinsans_extralight" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/josefinsans_extralight"
             android:hint="Don't Have An Account?"
+            android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sign_in"
-            android:fontFamily="@font/josefinsans_extralight"
-            android:textColor="@color/black"/>
+            app:layout_constraintTop_toBottomOf="@+id/sign_in" />
 
         <TextView
             android:id="@+id/sign_up"
             android:layout_width="60dp"
             android:layout_height="20dp"
+            android:fontFamily="@font/gideon_roman"
             android:hint="Sign In"
+            android:textColor="@color/purple_700"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/textView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.183"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            android:textColor="@color/purple_700"
-            android:fontFamily="@font/gideon_roman"/>
+            app:layout_constraintStart_toEndOf="@+id/textView" />
     </LinearLayout>
 
 
