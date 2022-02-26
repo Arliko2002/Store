@@ -29,6 +29,7 @@
             android:layout_margin="10dp"
             android:weightSum="2"
             android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -50,6 +51,15 @@
                 android:layout_marginRight="8dp" />
 
         </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/pop_rec"/>
+
     </LinearLayout>
+
+
 
 </ScrollView>
