@@ -25,3 +25,4 @@ public enum Category {
         throw new IOException("Cannot deserialize Category");
     }
 }
+//

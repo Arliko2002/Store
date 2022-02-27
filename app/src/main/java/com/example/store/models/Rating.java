@@ -15,3 +15,4 @@ public class Rating {
     @JsonProperty("count")
     public void setCount(long value) { this.count = value; }
 }
+//
