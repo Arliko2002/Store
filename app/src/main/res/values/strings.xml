@@ -15,5 +15,7 @@
     <string name="address">address</string>
     <string name="view">View All</string>
     <string name="key">AIzaSyD5obQEPK9Cb7Nq89sJbVWl9tcp6vXgosE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
