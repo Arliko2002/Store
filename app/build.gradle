@@ -46,6 +46,7 @@ dependencies {
     implementation "com.fasterxml.jackson.core:jackson-databind:2.9.0"
     implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.0"
 
+    implementation 'com.yarolegovich:sliding-root-nav:1.1.1'
 
     //retrofit
 

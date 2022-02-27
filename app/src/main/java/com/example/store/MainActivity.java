@@ -3,6 +3,7 @@ package com.example.store;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.app.ActivityOptions;
 import android.os.Bundle;
 import android.widget.Switch;
 
@@ -29,8 +30,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void registration(View view){
-        startActivity(new Intent(MainActivity.this,RegistrationActivity.class));
-
+        Intent i = new Intent(MainActivity.this,RegistrationActivity.class);
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        startActivity(i, b);
     }
     public void home(View view){
         startActivity(new Intent(MainActivity.this, HomeActivity.class));
