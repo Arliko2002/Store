@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_my">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/purple_my"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profile_pic"
+            android:src="@drawable/ic_baseline_profile_24"
+            android:outlineAmbientShadowColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/name"
+            android:fontFamily="@font/comicneue"
+            android:textSize="30sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/drawerlist"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_rv_drawer_category"/>
 
 
 
-
-</RelativeLayout>
+</LinearLayout>

@@ -22,7 +22,6 @@ public class HomeActivity extends AppCompatActivity{
         bottomMenu();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
-        toolbar.setTitle("Sliding Root");
         setSupportActionBar(toolbar);
 
         new SlidingRootNavBuilder(this)
