@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_view1"
+         android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+            tools:text="TextView1"
+            />
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="TextView2"
+        />
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="TextView3"
+        />
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="TextView4"
+        />
+<!--    <TextView-->
+<!--        android:id="@+id/text_view5"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        tools:text="TextView5"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view6"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        tools:text="TextView6"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view7"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        tools:text="TextView7"-->
+<!--        />-->
+
+
+</LinearLayout>
+
+<!--<TextView-->
+<!--android:id="@+id/text_view1"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_width="wrap_content"-->
+<!--tools:text="TextView1"-->
+<!--    />-->
+<!--<TextView-->
+<!--android:id="@+id/text_view2"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_width="wrap_content"-->
+<!--tools:text="TextView2"-->
+<!--    />-->
+<!--<TextView-->
+<!--android:id="@+id/text_view3"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_width="wrap_content"-->
+<!--tools:text="TextView3"-->
+<!--    />-->
+<!--<TextView-->
+<!--android:id="@+id/text_view4"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_width="wrap_content"-->
+<!--tools:text="TextView4"-->
+<!--    />-->
