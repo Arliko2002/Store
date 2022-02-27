@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Store" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/white</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/purple_my</item>
+        <item name="colorPrimaryVariant">@color/purple_my</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -20,6 +20,10 @@
 
     <style name="Button.Colors" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@color/red</item>
+    </style>
+
+    <style name="ToolbarColored" parent="ThemeOverlay.AppCompat">
+        <item name="android:textColorSecondary">@color/black</item>
     </style>
 
 </resources>
