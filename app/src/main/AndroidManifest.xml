@@ -10,9 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Store">
-        <activity
-            android:name=".PlaceActivity"
-            android:exported="false" />
 
 
         <meta-data
