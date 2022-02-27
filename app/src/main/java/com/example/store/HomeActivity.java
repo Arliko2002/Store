@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
-import android.widget.Switch;
 
+import com.example.store.fragments.FCategries;
+import com.example.store.fragments.FShoppingCart;
+import com.example.store.fragments.HomeFragment;
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 
 public class HomeActivity extends AppCompatActivity {
