@@ -43,7 +43,8 @@ dependencies {
 
     implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.6.0"
-
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.9.0"
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.0"
 
 
     //retrofit
