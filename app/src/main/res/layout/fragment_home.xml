@@ -25,40 +25,15 @@
             android:drawableLeft="@drawable/ic_baseline_search_24"
             android:drawablePadding="8dp"/>
 
-        <LinearLayout
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_main_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:weightSum="2"
-            android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/comicneue"
-                    android:text="@string/popular"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/comicneue"
-                android:text="@string/view"
-                android:textColor="@color/purple_my"
-                android:textSize="18sp"
-                android:gravity="end"
-                android:layout_marginRight="8dp" />
-
-        </LinearLayout>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:id="@+id/pop_rec1"/>
+            android:orientation="horizontal"
+            tools:itemCount="4"
+            tools:listitem="@layout/activity_items"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,45 +63,20 @@
 
         </LinearLayout>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:id="@+id/pop_rec2"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:weightSum="2"
             android:orientation="horizontal">
 
-            <TextView
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_sub_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/comicneue"
-                android:text="@string/popular"
-                android:textColor="@color/black"
-                android:textSize="18sp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/comicneue"
-                android:text="@string/view"
-                android:textColor="@color/purple_my"
-                android:textSize="18sp"
-                android:gravity="end"
-                android:layout_marginRight="8dp" />
-
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:itemCount="4"
+                tools:listitem="@layout/activity_item_popular" />
         </LinearLayout>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:id="@+id/pop_rec"/>
 
     </LinearLayout>
 

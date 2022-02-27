@@ -18,6 +18,7 @@
             android:id="@+id/tool_bar"
             app:titleTextColor="@color/purple_my"
             android:theme="@style/ToolbarColored"/>
+
     </LinearLayout>
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
