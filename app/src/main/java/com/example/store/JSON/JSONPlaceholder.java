@@ -13,3 +13,4 @@ public interface JSONPlaceholder {
     @GET("posts")
     Call<List<Product>> getProduct();
 }
+//

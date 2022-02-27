@@ -34,7 +34,6 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
     @Override
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
         Product product=productList.get(position);
-//        holder.id.setText(((int) product.getID()));
 //        holder.title.setText(product.getTitle());
 //        holder.price.setText((int) product.getPrice());
 //        holder.description.setText(product.getTitle());

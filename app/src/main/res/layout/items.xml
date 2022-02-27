@@ -32,12 +32,7 @@
         android:layout_width="wrap_content"
         tools:text="TextView4"
         />
-<!--    <TextView-->
-<!--        android:id="@+id/text_view5"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        tools:text="TextView5"-->
-<!--        />-->
+
 <!--    <TextView-->
 <!--        android:id="@+id/text_view6"-->
 <!--        android:layout_height="wrap_content"-->
