@@ -29,13 +29,13 @@ public class CategoryActivity extends AppCompatActivity {
             }
         });
 
-//        electronics.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
-//                ItemByCategoryActivity.setCategory_id(2);
-//            }
-//        });
+        electronics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
+                ItemByCategoryActivity.setCategory_id(2);
+            }
+        });
 //        mensClothing.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {

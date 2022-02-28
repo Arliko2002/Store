@@ -3,41 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/buttons_corner.xml" value="0.22407407407407406" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/buttons_corner_puple.xml" value="0.22407407407407406" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.22407407407407406" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.14739583333333334" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/ic_baseline_profile_24.xml" value="0.18125" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/ic_categories_example.xml" value="0.14739583333333334" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/drawable/tovar_shape.xml" value="0.14739583333333334" />
         <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_home.xml" value="0.13125" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_item_popular.xml" value="0.25416666666666665" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_items.xml" value="0.264" />
         <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_login.xml" value="0.13020833333333334" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_place.xml" value="0.13020833333333334" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_product_details.xml" value="0.2" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/activity_registration.xml" value="0.136" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/drawer_menu.xml" value="0.2" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/fragment_dash_board.xml" value="0.1" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/fragment_f_categries.xml" value="0.144" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/fragment_f_shopping_cart.xml" value="0.25416666666666665" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/item_option.xml" value="0.1" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/item_rv_categories.xml" value="0.2" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/item_rv_category_page.xml" value="0.2" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/item_rv_drawer_category.xml" value="0.264" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/items.xml" value="0.25416666666666665" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/layout/menu_left_drawer.xml" value="0.2" />
-        <entry key="..\:/Store/Store-master/app/src/main/res/menu/menu_button.xml" value="0.264" />
+        <entry key="..\:/Store/Store-master/app/src/main/res/menu/menu_button.xml" value="0.16" />
         <entry key="..\:/Store/Store-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14739583333333334" />
         <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/font/comicneue.xml" value="0.15729166666666666" />
-        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_home.xml" value="0.4" />
-        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_categories.xml" value="0.264" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_item_by_category.xml" value="0.1" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_item_popular.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_items.xml" value="0.1" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_login.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_place.xml" value="0.1" />
-        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_registration.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_product_details.xml" value="0.1734375" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/fragment_f_categries.xml" value="0.2" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/fragment_f_shopping_cart.xml" value="0.17135416666666667" />
         <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/item_option.xml" value="0.25" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/item_rv_category_page.xml" value="0.1734375" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/item_rv_drawer_category.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/items.xml" value="0.1" />
+        <entry key="..\:/Users/Meruyert/AndroidStudioProjects/Store/app/src/main/res/layout/menu_left_drawer.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/Meruyert/Downloads/Store/Store/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/Meruyert/Downloads/Store/Store/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Meruyert/Downloads/Store/Store/app/src/main/res/layout/activity_main.xml" value="0.25" />

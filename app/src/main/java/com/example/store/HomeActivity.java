@@ -18,6 +18,8 @@ public class HomeActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
+
         chipNavigationBar = findViewById(R.id.bottom_nav);
         bottomMenu();
 
@@ -29,6 +31,10 @@ public class HomeActivity extends AppCompatActivity{
                 .withMenuOpened(false)
                 .withMenuLayout(R.layout.menu_left_drawer)
                 .inject();
+
+
+
+
     }
 
 

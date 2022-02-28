@@ -21,11 +21,6 @@
         <activity
             android:name=".CategoryActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
     </activity>
 
@@ -33,9 +28,6 @@
         <activity
             android:name=".ProductDetails"
             android:exported="false" />
-        <activity
-            android:name=".ItemsActivity"
-            android:exported="true"></activity>
 
         <meta-data
             android:name="com.google.android.gms.vision"
@@ -49,13 +41,20 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".RegistrationActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
+        
     </application>
 
 </manifest>
