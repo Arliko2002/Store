@@ -63,5 +63,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
             image=itemView.findViewById(R.id.image);
 
         }
+        ///
     }
 }

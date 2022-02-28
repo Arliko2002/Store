@@ -71,5 +71,6 @@ public class ItemByCategoryActivity extends AppCompatActivity {
     public static void setCategory_id(int category_id) {
         ItemByCategoryActivity.category_id = category_id;
     }
+    //
 
 }

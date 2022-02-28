@@ -6,16 +6,8 @@
     android:orientation="vertical"
     tools:context=".ItemsActivity"
     >
-<!--    <androidx.cardview.widget.CardView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
 
-<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
-<!--            android:id="@+id/text_view1"-->
-<!--         android:layout_height="wrap_content"-->
-<!--           android:layout_width="wrap_content"-->
-<!--            tools:text="TextView1"-->
-<!--            />-->
+
 <!--    <TextView-->
 <!--        android:id="@+id/text_view2"-->
 <!--        android:layout_height="wrap_content"-->
