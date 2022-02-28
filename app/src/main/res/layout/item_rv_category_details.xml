@@ -81,7 +81,8 @@
                 android:layout_margin="16dp"
                 android:background="@drawable/buttons_corner"
                 android:elevation="2dp"
-                android:src="@drawable/example_tovar" />
+                android:src="@drawable/example_tovar"
+                android:id="@+id/tovar_img"/>
         </FrameLayout>
     </LinearLayout>
 
