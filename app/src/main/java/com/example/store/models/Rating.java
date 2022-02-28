@@ -5,14 +5,28 @@ public class Rating {
     private double rate;
     private long count;
 
-    @JsonProperty("rate")
-    public double getRate() { return rate; }
-    @JsonProperty("rate")
-    public void setRate(double value) { this.rate = value; }
+    public double getRate() {
+        return rate;
+    }
 
-    @JsonProperty("count")
-    public long getCount() { return count; }
-    @JsonProperty("count")
-    public void setCount(long value) { this.count = value; }
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+
+    public long getCount() {
+        return count;
+    }
+
+    public void setCount(long count) {
+        this.count = count;
+    }
+
+    @Override
+    public String toString() {
+        return "Rating{" +
+                "rate=" + rate +
+                ", count=" + count +
+                '}';
+    }
 }
 //

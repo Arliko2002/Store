@@ -8,6 +8,20 @@ public class Product {
     private double price;
     private String description;
     private String image;
+    private Rating rating;
+
+//    public Product() {
+//    }
+//
+//    public Product(long id, String title, double price, String description, String image, Rating rating) {
+//        this.id = id;
+//        this.title = title;
+//        this.price = price;
+//        this.description = description;
+//        this.image = image;
+//        this.rating = rating;
+//     //   rate=rating.getRate();
+//    }
 
     public long getId() {
         return id;
@@ -48,7 +62,19 @@ public class Product {
     public void setImage(String image) {
         this.image = image;
     }
+
+    public Rating getRating() {
+        return rating;
+    }
+
+    public void setRating(Rating rating) {
+        this.rating = rating;
+    }
 }
+
+
+
+
 
 //    private long id;
 //    private String title;

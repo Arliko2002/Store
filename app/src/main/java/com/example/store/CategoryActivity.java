@@ -25,31 +25,31 @@ public class CategoryActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
-                ItemByCategoryActivity.setCategory_id(1);
+               // ItemByCategoryActivity.setCategory_id(1);
             }
         });
 
-        electronics.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
-                ItemByCategoryActivity.setCategory_id(2);
-            }
-        });
-        mensClothing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
-                ItemByCategoryActivity.setCategory_id(3);
-            }
-        });
-        womensClothing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
-                ItemByCategoryActivity.setCategory_id(4);
-            }
-        });
+//        electronics.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
+//                ItemByCategoryActivity.setCategory_id(2);
+//            }
+//        });
+//        mensClothing.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
+//                ItemByCategoryActivity.setCategory_id(3);
+//            }
+//        });
+//        womensClothing.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(CategoryActivity.this,ItemByCategoryActivity.class));
+//                ItemByCategoryActivity.setCategory_id(4);
+//            }
+//        });
 
     }
     //
