@@ -10,11 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.store.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link FCategries#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class FCategries extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
