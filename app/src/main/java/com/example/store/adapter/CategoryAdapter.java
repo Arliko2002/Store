@@ -72,8 +72,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
             price=itemView.findViewById(R.id.price);
             description=itemView.findViewById(R.id.description);
             image=itemView.findViewById(R.id.image);
-           // rate=itemView.findViewById(R.id.rate);
-           // rate=itemView.findViewById(R.id.rate);
+
         }
         ///
     }

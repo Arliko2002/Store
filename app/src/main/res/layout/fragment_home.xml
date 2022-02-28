@@ -63,7 +63,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="40dp"
                     android:src="@drawable/ic_jewelry" />
-
+<!---->
                 <TextView
                     android:id="@+id/textView_jewelry"
                     android:layout_width="match_parent"

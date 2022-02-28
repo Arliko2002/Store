@@ -26,7 +26,7 @@ public class ItemByCategoryActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private static final String TAG = "MYLOGS";
 
-    //private static int category_id=1;
+    private static int category_id=1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,17 +47,17 @@ public class ItemByCategoryActivity extends AppCompatActivity {
 
         JsonProduct jsonProduct=retrofit.create(JsonProduct.class);
 
-        Call<List<Product>> call=jsonProduct.getProductJewelery();
+        Call<List<Product>> call;
 
         Log.v(TAG, "jewelry is assigned");
 
-//        switch (category_id) {
-//            case 1: call=jsonProduct.getProductJewelery();
-//            case 2: call=jsonProduct.getProductElectronics();
-//            case 3: call=jsonProduct.getProductMensClothing();
-//            case 4: call=jsonProduct.getProductWomensClothing();
-//            default:call=jsonProduct.getProductJewelery();
-//        }
+        switch (category_id) {
+            case 1: call=jsonProduct.getProductJewelery();
+            case 2: call=jsonProduct.getProductElectronics();
+            case 3: call=jsonProduct.getProductMensClothing();
+            case 4: call=jsonProduct.getProductWomensClothing();
+            default:call=jsonProduct.getProductJewelery();
+        }
 
         call.enqueue(new Callback<List<Product>>() {
             @Override
@@ -76,14 +76,15 @@ public class ItemByCategoryActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Product>> call, Throwable t) {
+                Log.v(TAG, "Error");
                 Toast.makeText(ItemByCategoryActivity.this,t.getMessage(),Toast.LENGTH_SHORT).show();
 
             }
         });
     }
-//    public static void setCategory_id(int category_id) {
-//        ItemByCategoryActivity.category_id = category_id;
-//    }
+    public static void setCategory_id(int category_id) {
+        ItemByCategoryActivity.category_id = category_id;
+    }
 
 
 }

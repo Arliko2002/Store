@@ -21,5 +21,5 @@ public interface JsonProduct {
     @GET("products/category/women's clothing/")
     Call<List<Product>> getProductWomensClothing();
 
-    //
+    ///
 }

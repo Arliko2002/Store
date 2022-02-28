@@ -13,5 +13,5 @@
         android:orientation="vertical"
         tools:itemCount="4"
         tools:listitem="@layout/item_rv_category_page"/>
-
+<!---->
 </FrameLayout>
