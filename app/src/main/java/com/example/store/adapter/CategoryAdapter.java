@@ -45,11 +45,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
         Log.v(TAG, String.valueOf(product.getId()));
 
-        //holder.id.setText((String.valueOf(product.getId())));
         holder.title.setText(( product.getTitle()));
        holder.price.setText(String.valueOf(product.getPrice()));
         holder.description.setText((product.getDescription()));
-        ///holder.image.setImageResource(Integer.parseInt((product.getImage())));
        // holder.rate.setText((CharSequence) product.getRating());
 
 
@@ -57,7 +55,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
                 .load(product.getImage())
                 .into(holder.image);
         Log.v(TAG, product.getTitle());
-      //  holder.rate.setText((int) product.getRating());
 
     }
 
@@ -75,7 +72,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
             super(itemView);
             Log.v(TAG,"CategoryViewHolder");
 
-          //  id=itemView.findViewById(R.id.id);
             title=itemView.findViewById(R.id.title);
             price=itemView.findViewById(R.id.price);
             description=itemView.findViewById(R.id.description);
@@ -84,6 +80,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
 
 
         }
-        ///
+
     }
 }

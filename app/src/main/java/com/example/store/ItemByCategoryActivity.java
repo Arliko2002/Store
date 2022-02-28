@@ -21,7 +21,6 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-/*ADAPTER NEEDS TO BE CHANGED*/
 public class ItemByCategoryActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private static final String TAG = "MYLOGS";

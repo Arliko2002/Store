@@ -26,4 +26,13 @@
         <item name="android:textColorSecondary">@color/black</item>
     </style>
 
+    <style name="Theme.Store.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Store.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Store.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

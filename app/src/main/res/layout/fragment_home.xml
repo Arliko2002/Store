@@ -101,7 +101,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="40dp"
-                    android:src="@drawable/ic_jewelry" />
+                    android:src="@mipmap/electronic" />
 
                 <TextView
                     android:id="@+id/textView_electronics"
@@ -140,7 +140,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="40dp"
-                    android:src="@drawable/ic_jewelry" />
+                    android:src="@mipmap/man" />
 
                 <TextView
                     android:id="@+id/textView_mensClothing"
@@ -179,7 +179,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="40dp"
-                    android:src="@drawable/ic_jewelry" />
+                    android:src="@mipmap/man" />
 
                 <TextView
                     android:id="@+id/textView_womensClothing"

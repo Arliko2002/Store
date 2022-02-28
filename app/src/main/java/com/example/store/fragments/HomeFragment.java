@@ -12,11 +12,11 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.store.CategoryActivity;
 import com.example.store.HomeActivity;
 import com.example.store.ItemByCategoryActivity;
 import com.example.store.R;
@@ -31,7 +31,10 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
         jewellery = getView().findViewById(R.id.jewellery);
+        Log.v("my logs", String.valueOf(jewellery));
+
         electronics = getView().findViewById(R.id.electronics);
         mensClothing = getView().findViewById(R.id.mensClothing);
         womensClothing = getView().findViewById(R.id.womensClothing);
@@ -41,6 +44,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), ItemByCategoryActivity.class));
                 ItemByCategoryActivity.setCategory_id(1);
+                Log.v("My logs","ItemByCategory Started");
             }
         });
 

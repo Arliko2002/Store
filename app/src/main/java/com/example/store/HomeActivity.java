@@ -5,6 +5,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.util.Log;
+
 import com.example.store.fragments.FCategries;
 import com.example.store.fragments.FShoppingCart;
 import com.example.store.fragments.HomeFragment;
@@ -13,11 +15,12 @@ import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
 
 public class HomeActivity extends AppCompatActivity{
     ChipNavigationBar chipNavigationBar;
+    Fragment fragment = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-
 
 
         chipNavigationBar = findViewById(R.id.bottom_nav);
@@ -43,10 +46,10 @@ public class HomeActivity extends AppCompatActivity{
         chipNavigationBar.setOnItemSelectedListener(new ChipNavigationBar.OnItemSelectedListener() {
             @Override
             public void onItemSelected(int i) {
-                Fragment fragment = null;
                 switch (i) {
                     case R.id.home:
                         fragment = new HomeFragment();
+                        Log.v("My logs","Fragment home is opened");
                         break;
 
                     case R.id.basket:
