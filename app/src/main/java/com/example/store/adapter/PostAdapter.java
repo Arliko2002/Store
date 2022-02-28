@@ -18,7 +18,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
 
     List<Product> productList;
     Context context;
-
+    //var mainCategoryAdapter = MainCategoryAdapter()
     public PostAdapter(Context context, List<Product> products){
         this.context=context;
         productList=products;
