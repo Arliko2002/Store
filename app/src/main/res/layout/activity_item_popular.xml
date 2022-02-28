@@ -24,7 +24,7 @@
                 android:layout_height="@dimen/_180sdp"
                 android:src="@drawable/ic_finalwelcome"/>
 
-            <LinearLayout
+            <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -36,23 +36,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dish Name"
-                android:textSize="@dimen/_25ssp"
+                android:textSize="@dimen/_20ssp"
                 android:textColor="@color/white"
                 android:maxLines="2"
                 android:fontFamily="@font/comicneue"
                 android:paddingStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_30sdp"
                 android:gravity="center"/>
-                <ImageView
+
+                <TextView
+                    android:id="@+id/price_popular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-                    android:layout_marginTop="@dimen/_40sdp"
-                    android:paddingStart="@dimen/_20sdp"
-                    />
+                    android:text="20"
+                    android:textSize="@dimen/_20ssp"
+                    android:textColor="@color/white"
+                    android:maxLines="2"
+                    android:fontFamily="@font/comicneue"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/_10sdp"/>
 
 
-        </LinearLayout>
+
+        </RelativeLayout>
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
