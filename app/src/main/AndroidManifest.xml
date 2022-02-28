@@ -31,10 +31,11 @@
 
 
         <activity
+            android:name=".ProductDetails"
+            android:exported="false" />
+        <activity
             android:name=".ItemsActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="com.google.android.gms.vision"

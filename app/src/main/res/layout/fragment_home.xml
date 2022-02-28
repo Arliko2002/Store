@@ -7,11 +7,21 @@
     android:background="@color/white"
     android:layout_marginTop="60dp">
 
-    <!-- TODO: Update blank fragment layout -->
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/ic_categories_example" />
+    </LinearLayout>-->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/login_shape">
+
 
         <EditText
             android:elevation="3dp"

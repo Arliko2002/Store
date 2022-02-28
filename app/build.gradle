@@ -62,7 +62,10 @@ dependencies {
     //scalable unit size
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 
-    //retrofit
+    //card
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
 
 
 }

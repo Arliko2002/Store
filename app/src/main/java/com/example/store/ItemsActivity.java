@@ -28,7 +28,9 @@ public class ItemsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.items);
 
-        recyclerView=findViewById(R.id.recycler_view);
+
+
+        recyclerView=findViewById(R.id.rv_sub_category);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
