@@ -8,9 +8,8 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.store.JSON.JSONPlaceholder;
-import com.example.store.adapter.PostAdapter;
+import com.example.store.adapter.CategoryAdapter;
 import com.example.store.models.Product;
-import com.google.gson.internal.GsonBuildConfig;
 
 import java.util.List;
 
@@ -27,7 +26,7 @@ public class ItemsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_items);
+        setContentView(R.layout.items);
 
         recyclerView=findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
@@ -48,8 +47,8 @@ public class ItemsActivity extends AppCompatActivity {
                  return;
               }
               List<Product> productList=response.body();
-              PostAdapter postAdapter=new PostAdapter(ItemsActivity.this, productList);
-              recyclerView.setAdapter(postAdapter);
+              CategoryAdapter categoryAdapter =new CategoryAdapter(ItemsActivity.this, productList);
+              recyclerView.setAdapter(categoryAdapter);
            }
 
            @Override

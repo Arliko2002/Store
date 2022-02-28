@@ -3,22 +3,18 @@ import com.fasterxml.jackson.annotation.*;
 
 public class Product {
 
-    private String id,userId,title,body;
+    private long id;
+    private String title;
+    private double price;
+    private String description;
+    private String image;
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
     }
 
     public String getTitle() {
@@ -29,12 +25,28 @@ public class Product {
         this.title = title;
     }
 
-    public String getBody() {
-        return body;
+    public double getPrice() {
+        return price;
     }
 
-    public void setBody(String body) {
-        this.body = body;
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }
 

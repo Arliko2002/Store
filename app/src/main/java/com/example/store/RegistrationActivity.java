@@ -26,7 +26,6 @@ public class RegistrationActivity extends AppCompatActivity {
     TextView signIn;
     FirebaseAuth auth;
     FirebaseDatabase database;
-//////////////AMINAAAA
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
