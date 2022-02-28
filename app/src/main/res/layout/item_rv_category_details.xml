@@ -10,14 +10,6 @@
     android:elevation="@dimen/_30sdp">
 
 
-
-    <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -38,12 +30,12 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/name_of"
+                        android:id="@+id/title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/_50sdp"
                         android:fontFamily="@font/comicneue"
-                        android:text="@string/example"
+                       tools:text="@string/example"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_20sdp" />
 
@@ -54,7 +46,7 @@
                         android:layout_marginLeft="@dimen/_50sdp"
                         android:fontFamily="@font/gideon_roman"
                         android:padding="@dimen/_5sdp"
-                        android:text="@string/Lorem"
+                        tools:text="@string/Lorem"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_10sdp" />
 
@@ -66,7 +58,7 @@
                         android:layout_marginRight="@dimen/_30sdp"
                         android:fontFamily="@font/comicneue"
                         android:gravity="end"
-                        android:text="$20"
+                        tools:text="$20"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_15sdp" />
 
@@ -79,12 +71,11 @@
                 android:layout_width="@dimen/_100sdp"
                 android:layout_height="@dimen/_100sdp"
                 android:layout_margin="16dp"
-                android:background="@drawable/buttons_corner"
+                tools:background="@drawable/buttons_corner"
                 android:elevation="2dp"
-                android:src="@drawable/example_tovar"
-                android:id="@+id/tovar_img"/>
+                tools:src="@drawable/example_tovar"
+                android:id="@+id/image"/>
         </FrameLayout>
-    </LinearLayout>
 
 
 </RelativeLayout>
