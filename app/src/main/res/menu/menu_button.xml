@@ -7,7 +7,7 @@
         android:id="@+id/home"
         android:icon="@drawable/ic_akar_icons_home"
         android:title="Home"
-        app:cnb_backgroundColor="#9F6257"
+        app:cnb_backgroundColor="@color/purple_my"
         app:cnb_iconColor="#FFF"
         app:cnb_textColor="#FFF"/>
 
@@ -15,7 +15,7 @@
         android:id="@+id/basket"
         android:icon="@drawable/ic_carbon_shopping_cart"
         android:title="Basket"
-        app:cnb_backgroundColor="#9F6257"
+        app:cnb_backgroundColor="@color/purple_my"
         app:cnb_iconColor="#FFF"
         app:cnb_textColor="#FFF"/>
 
@@ -23,7 +23,7 @@
         android:id="@+id/categories"
         android:icon="@drawable/ic_carbon_search_locate"
         android:title="Categories"
-        app:cnb_backgroundColor="#9F6257"
+        app:cnb_backgroundColor="@color/purple_my"
         app:cnb_iconColor="#FFF"
         app:cnb_textColor="#FFF"/>
 </menu>
