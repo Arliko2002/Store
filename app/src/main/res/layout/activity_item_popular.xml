@@ -6,8 +6,8 @@
     android:layout_height="wrap_content">
     <!--tools:context=".item_rv_sub_category">-->
     <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_180sdp"
-        android:layout_height="@dimen/_260sdp"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_200sdp"
         android:layout_margin="@dimen/_10sdp"
         app:cardCornerRadius="@dimen/_10sdp"
         app:cardElevation="@dimen/_5sdp">
@@ -20,28 +20,27 @@
             <ImageView
                 android:id="@+id/img_dish"
                 android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
                 android:scaleType="centerCrop"
-                android:layout_height="@dimen/_180sdp"
-                android:src="@drawable/ic_finalwelcome"/>
+                android:src="@drawable/ic_finalwelcome" />
 
             <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="@dimen/_20sdp"
-                >
-            <TextView
+            android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_70sdp">
+
+                <TextView
                 android:id="@+id/tv_dish_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dish Name"
-                android:textSize="@dimen/_20ssp"
+                android:textSize="@dimen/_15ssp"
                 android:textColor="@color/white"
                 android:maxLines="2"
                 android:fontFamily="@font/comicneue"
                 android:paddingStart="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_30sdp"
                 android:gravity="center"/>
 
                 <TextView

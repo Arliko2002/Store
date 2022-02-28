@@ -26,7 +26,7 @@
             android:layout_width="@dimen/_60sdp"
             android:layout_height="@dimen/_60sdp"
             android:paddingTop="@dimen/_20sdp"
-            android:src="@drawable/reg_page" />
+            android:src="@drawable/profile" />
 
         <TextView
             android:layout_width="match_parent"
