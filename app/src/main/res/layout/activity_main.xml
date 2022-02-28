@@ -73,23 +73,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
-        <Button
-            android:id="@+id/home"
-            android:layout_width="192dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="10dp"
-            android:background="?android:attr/selectableItemBackground"
-            android:fontFamily="@font/gideonroman_regular"
-            android:onClick="home"
-            android:text="Home"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
-
 
     </LinearLayout>
 

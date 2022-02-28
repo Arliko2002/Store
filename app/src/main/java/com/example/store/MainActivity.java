@@ -34,7 +34,5 @@ public class MainActivity extends AppCompatActivity {
         Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
         startActivity(i, b);
     }
-    public void home(View view){
-        startActivity(new Intent(MainActivity.this, HomeActivity.class));
-    }
+
 }
